@@ -1,0 +1,7 @@
+brend_shop:
+    resource: "@BrendShopBundle/Resources/config/routing.yml"
+    prefix:   /
+
+#app:
+#    resource: "@AppBundle/Controller/"
+#    type:     annotation

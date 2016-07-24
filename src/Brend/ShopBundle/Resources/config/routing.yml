@@ -1,0 +1,3 @@
+brend_shop_homepage:
+    path:     /
+    defaults: { _controller: BrendShopBundle:Default:index }
