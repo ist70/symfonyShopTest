@@ -54,7 +54,7 @@ class Category
         return $this;
     }
 
-    public function addProductss($products)
+    public function addProducts($products)
     {
         $this->products[] = $products;
         return $this;

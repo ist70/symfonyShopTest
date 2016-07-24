@@ -54,6 +54,7 @@ class DefaultController extends Controller
         $product->setName('ASUS DBD7892');
         $product->addPrice(28564.00);
         $product->addCategories($category);
+        $category->addProducts($product);
 
         //Передаем менеджеру объект модели
         $em->persist($category);
